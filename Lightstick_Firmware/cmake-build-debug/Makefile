@@ -47,10 +47,10 @@ RM = D:\LaptopSync\CompilerToolchains\CMake-Latest\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware"
+CMAKE_SOURCE_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug\CMakeFiles" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug\CMakeFiles" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -149,19 +149,6 @@ PLATFORMIO_UPLOAD/fast:
 .PHONY : PLATFORMIO_UPLOAD/fast
 
 #=============================================================================
-# Target rules for targets named Firmware
-
-# Build rule for target.
-Firmware: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Firmware
-.PHONY : Firmware
-
-# fast build rule for target.
-Firmware/fast:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/build
-.PHONY : Firmware/fast
-
-#=============================================================================
 # Target rules for targets named PLATFORMIO_CLEAN
 
 # Build rule for target.
@@ -173,6 +160,19 @@ PLATFORMIO_CLEAN: cmake_check_build_system
 PLATFORMIO_CLEAN/fast:
 	$(MAKE) -f CMakeFiles\PLATFORMIO_CLEAN.dir\build.make CMakeFiles/PLATFORMIO_CLEAN.dir/build
 .PHONY : PLATFORMIO_CLEAN/fast
+
+#=============================================================================
+# Target rules for targets named Lightstick_Firmware
+
+# Build rule for target.
+Lightstick_Firmware: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Lightstick_Firmware
+.PHONY : Lightstick_Firmware
+
+# fast build rule for target.
+Lightstick_Firmware/fast:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/build
+.PHONY : Lightstick_Firmware/fast
 
 #=============================================================================
 # Target rules for targets named PLATFORMIO_REBUILD_PROJECT_INDEX
@@ -226,248 +226,383 @@ PLATFORMIO_UPDATE_ALL/fast:
 	$(MAKE) -f CMakeFiles\PLATFORMIO_UPDATE_ALL.dir\build.make CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/build
 .PHONY : PLATFORMIO_UPDATE_ALL/fast
 
-.piolibdeps/FastLED_ID126/FastLED.obj: .piolibdeps/FastLED_ID126/FastLED.cpp.obj
+lib/FastLED_ID126/FastLED.obj: lib/FastLED_ID126/FastLED.cpp.obj
 
-.PHONY : .piolibdeps/FastLED_ID126/FastLED.obj
-
-# target to build an object file
-.piolibdeps/FastLED_ID126/FastLED.cpp.obj:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.obj
-.PHONY : .piolibdeps/FastLED_ID126/FastLED.cpp.obj
-
-.piolibdeps/FastLED_ID126/FastLED.i: .piolibdeps/FastLED_ID126/FastLED.cpp.i
-
-.PHONY : .piolibdeps/FastLED_ID126/FastLED.i
-
-# target to preprocess a source file
-.piolibdeps/FastLED_ID126/FastLED.cpp.i:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.i
-.PHONY : .piolibdeps/FastLED_ID126/FastLED.cpp.i
-
-.piolibdeps/FastLED_ID126/FastLED.s: .piolibdeps/FastLED_ID126/FastLED.cpp.s
-
-.PHONY : .piolibdeps/FastLED_ID126/FastLED.s
-
-# target to generate assembly for a file
-.piolibdeps/FastLED_ID126/FastLED.cpp.s:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/FastLED.cpp.s
-.PHONY : .piolibdeps/FastLED_ID126/FastLED.cpp.s
-
-.piolibdeps/FastLED_ID126/bitswap.obj: .piolibdeps/FastLED_ID126/bitswap.cpp.obj
-
-.PHONY : .piolibdeps/FastLED_ID126/bitswap.obj
+.PHONY : lib/FastLED_ID126/FastLED.obj
 
 # target to build an object file
-.piolibdeps/FastLED_ID126/bitswap.cpp.obj:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.obj
-.PHONY : .piolibdeps/FastLED_ID126/bitswap.cpp.obj
+lib/FastLED_ID126/FastLED.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/FastLED.cpp.obj
+.PHONY : lib/FastLED_ID126/FastLED.cpp.obj
 
-.piolibdeps/FastLED_ID126/bitswap.i: .piolibdeps/FastLED_ID126/bitswap.cpp.i
+lib/FastLED_ID126/FastLED.i: lib/FastLED_ID126/FastLED.cpp.i
 
-.PHONY : .piolibdeps/FastLED_ID126/bitswap.i
+.PHONY : lib/FastLED_ID126/FastLED.i
 
 # target to preprocess a source file
-.piolibdeps/FastLED_ID126/bitswap.cpp.i:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.i
-.PHONY : .piolibdeps/FastLED_ID126/bitswap.cpp.i
+lib/FastLED_ID126/FastLED.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/FastLED.cpp.i
+.PHONY : lib/FastLED_ID126/FastLED.cpp.i
 
-.piolibdeps/FastLED_ID126/bitswap.s: .piolibdeps/FastLED_ID126/bitswap.cpp.s
+lib/FastLED_ID126/FastLED.s: lib/FastLED_ID126/FastLED.cpp.s
 
-.PHONY : .piolibdeps/FastLED_ID126/bitswap.s
+.PHONY : lib/FastLED_ID126/FastLED.s
 
 # target to generate assembly for a file
-.piolibdeps/FastLED_ID126/bitswap.cpp.s:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/bitswap.cpp.s
-.PHONY : .piolibdeps/FastLED_ID126/bitswap.cpp.s
+lib/FastLED_ID126/FastLED.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/FastLED.cpp.s
+.PHONY : lib/FastLED_ID126/FastLED.cpp.s
 
-.piolibdeps/FastLED_ID126/colorpalettes.obj: .piolibdeps/FastLED_ID126/colorpalettes.cpp.obj
+lib/FastLED_ID126/bitswap.obj: lib/FastLED_ID126/bitswap.cpp.obj
 
-.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.obj
+.PHONY : lib/FastLED_ID126/bitswap.obj
 
 # target to build an object file
-.piolibdeps/FastLED_ID126/colorpalettes.cpp.obj:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.obj
-.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.cpp.obj
+lib/FastLED_ID126/bitswap.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/bitswap.cpp.obj
+.PHONY : lib/FastLED_ID126/bitswap.cpp.obj
 
-.piolibdeps/FastLED_ID126/colorpalettes.i: .piolibdeps/FastLED_ID126/colorpalettes.cpp.i
+lib/FastLED_ID126/bitswap.i: lib/FastLED_ID126/bitswap.cpp.i
 
-.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.i
+.PHONY : lib/FastLED_ID126/bitswap.i
 
 # target to preprocess a source file
-.piolibdeps/FastLED_ID126/colorpalettes.cpp.i:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.i
-.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.cpp.i
+lib/FastLED_ID126/bitswap.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/bitswap.cpp.i
+.PHONY : lib/FastLED_ID126/bitswap.cpp.i
 
-.piolibdeps/FastLED_ID126/colorpalettes.s: .piolibdeps/FastLED_ID126/colorpalettes.cpp.s
+lib/FastLED_ID126/bitswap.s: lib/FastLED_ID126/bitswap.cpp.s
 
-.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.s
+.PHONY : lib/FastLED_ID126/bitswap.s
 
 # target to generate assembly for a file
-.piolibdeps/FastLED_ID126/colorpalettes.cpp.s:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/colorpalettes.cpp.s
-.PHONY : .piolibdeps/FastLED_ID126/colorpalettes.cpp.s
+lib/FastLED_ID126/bitswap.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/bitswap.cpp.s
+.PHONY : lib/FastLED_ID126/bitswap.cpp.s
 
-.piolibdeps/FastLED_ID126/colorutils.obj: .piolibdeps/FastLED_ID126/colorutils.cpp.obj
+lib/FastLED_ID126/colorpalettes.obj: lib/FastLED_ID126/colorpalettes.cpp.obj
 
-.PHONY : .piolibdeps/FastLED_ID126/colorutils.obj
+.PHONY : lib/FastLED_ID126/colorpalettes.obj
 
 # target to build an object file
-.piolibdeps/FastLED_ID126/colorutils.cpp.obj:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.obj
-.PHONY : .piolibdeps/FastLED_ID126/colorutils.cpp.obj
+lib/FastLED_ID126/colorpalettes.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/colorpalettes.cpp.obj
+.PHONY : lib/FastLED_ID126/colorpalettes.cpp.obj
 
-.piolibdeps/FastLED_ID126/colorutils.i: .piolibdeps/FastLED_ID126/colorutils.cpp.i
+lib/FastLED_ID126/colorpalettes.i: lib/FastLED_ID126/colorpalettes.cpp.i
 
-.PHONY : .piolibdeps/FastLED_ID126/colorutils.i
+.PHONY : lib/FastLED_ID126/colorpalettes.i
 
 # target to preprocess a source file
-.piolibdeps/FastLED_ID126/colorutils.cpp.i:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.i
-.PHONY : .piolibdeps/FastLED_ID126/colorutils.cpp.i
+lib/FastLED_ID126/colorpalettes.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/colorpalettes.cpp.i
+.PHONY : lib/FastLED_ID126/colorpalettes.cpp.i
 
-.piolibdeps/FastLED_ID126/colorutils.s: .piolibdeps/FastLED_ID126/colorutils.cpp.s
+lib/FastLED_ID126/colorpalettes.s: lib/FastLED_ID126/colorpalettes.cpp.s
 
-.PHONY : .piolibdeps/FastLED_ID126/colorutils.s
+.PHONY : lib/FastLED_ID126/colorpalettes.s
 
 # target to generate assembly for a file
-.piolibdeps/FastLED_ID126/colorutils.cpp.s:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/colorutils.cpp.s
-.PHONY : .piolibdeps/FastLED_ID126/colorutils.cpp.s
+lib/FastLED_ID126/colorpalettes.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/colorpalettes.cpp.s
+.PHONY : lib/FastLED_ID126/colorpalettes.cpp.s
 
-.piolibdeps/FastLED_ID126/hsv2rgb.obj: .piolibdeps/FastLED_ID126/hsv2rgb.cpp.obj
+lib/FastLED_ID126/colorutils.obj: lib/FastLED_ID126/colorutils.cpp.obj
 
-.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.obj
+.PHONY : lib/FastLED_ID126/colorutils.obj
 
 # target to build an object file
-.piolibdeps/FastLED_ID126/hsv2rgb.cpp.obj:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.obj
-.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.cpp.obj
+lib/FastLED_ID126/colorutils.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/colorutils.cpp.obj
+.PHONY : lib/FastLED_ID126/colorutils.cpp.obj
 
-.piolibdeps/FastLED_ID126/hsv2rgb.i: .piolibdeps/FastLED_ID126/hsv2rgb.cpp.i
+lib/FastLED_ID126/colorutils.i: lib/FastLED_ID126/colorutils.cpp.i
 
-.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.i
+.PHONY : lib/FastLED_ID126/colorutils.i
 
 # target to preprocess a source file
-.piolibdeps/FastLED_ID126/hsv2rgb.cpp.i:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.i
-.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.cpp.i
+lib/FastLED_ID126/colorutils.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/colorutils.cpp.i
+.PHONY : lib/FastLED_ID126/colorutils.cpp.i
 
-.piolibdeps/FastLED_ID126/hsv2rgb.s: .piolibdeps/FastLED_ID126/hsv2rgb.cpp.s
+lib/FastLED_ID126/colorutils.s: lib/FastLED_ID126/colorutils.cpp.s
 
-.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.s
+.PHONY : lib/FastLED_ID126/colorutils.s
 
 # target to generate assembly for a file
-.piolibdeps/FastLED_ID126/hsv2rgb.cpp.s:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/hsv2rgb.cpp.s
-.PHONY : .piolibdeps/FastLED_ID126/hsv2rgb.cpp.s
+lib/FastLED_ID126/colorutils.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/colorutils.cpp.s
+.PHONY : lib/FastLED_ID126/colorutils.cpp.s
 
-.piolibdeps/FastLED_ID126/lib8tion.obj: .piolibdeps/FastLED_ID126/lib8tion.cpp.obj
+lib/FastLED_ID126/hsv2rgb.obj: lib/FastLED_ID126/hsv2rgb.cpp.obj
 
-.PHONY : .piolibdeps/FastLED_ID126/lib8tion.obj
+.PHONY : lib/FastLED_ID126/hsv2rgb.obj
 
 # target to build an object file
-.piolibdeps/FastLED_ID126/lib8tion.cpp.obj:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.obj
-.PHONY : .piolibdeps/FastLED_ID126/lib8tion.cpp.obj
+lib/FastLED_ID126/hsv2rgb.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/hsv2rgb.cpp.obj
+.PHONY : lib/FastLED_ID126/hsv2rgb.cpp.obj
 
-.piolibdeps/FastLED_ID126/lib8tion.i: .piolibdeps/FastLED_ID126/lib8tion.cpp.i
+lib/FastLED_ID126/hsv2rgb.i: lib/FastLED_ID126/hsv2rgb.cpp.i
 
-.PHONY : .piolibdeps/FastLED_ID126/lib8tion.i
+.PHONY : lib/FastLED_ID126/hsv2rgb.i
 
 # target to preprocess a source file
-.piolibdeps/FastLED_ID126/lib8tion.cpp.i:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.i
-.PHONY : .piolibdeps/FastLED_ID126/lib8tion.cpp.i
+lib/FastLED_ID126/hsv2rgb.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/hsv2rgb.cpp.i
+.PHONY : lib/FastLED_ID126/hsv2rgb.cpp.i
 
-.piolibdeps/FastLED_ID126/lib8tion.s: .piolibdeps/FastLED_ID126/lib8tion.cpp.s
+lib/FastLED_ID126/hsv2rgb.s: lib/FastLED_ID126/hsv2rgb.cpp.s
 
-.PHONY : .piolibdeps/FastLED_ID126/lib8tion.s
+.PHONY : lib/FastLED_ID126/hsv2rgb.s
 
 # target to generate assembly for a file
-.piolibdeps/FastLED_ID126/lib8tion.cpp.s:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/lib8tion.cpp.s
-.PHONY : .piolibdeps/FastLED_ID126/lib8tion.cpp.s
+lib/FastLED_ID126/hsv2rgb.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/hsv2rgb.cpp.s
+.PHONY : lib/FastLED_ID126/hsv2rgb.cpp.s
 
-.piolibdeps/FastLED_ID126/noise.obj: .piolibdeps/FastLED_ID126/noise.cpp.obj
+lib/FastLED_ID126/lib8tion.obj: lib/FastLED_ID126/lib8tion.cpp.obj
 
-.PHONY : .piolibdeps/FastLED_ID126/noise.obj
+.PHONY : lib/FastLED_ID126/lib8tion.obj
 
 # target to build an object file
-.piolibdeps/FastLED_ID126/noise.cpp.obj:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.obj
-.PHONY : .piolibdeps/FastLED_ID126/noise.cpp.obj
+lib/FastLED_ID126/lib8tion.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/lib8tion.cpp.obj
+.PHONY : lib/FastLED_ID126/lib8tion.cpp.obj
 
-.piolibdeps/FastLED_ID126/noise.i: .piolibdeps/FastLED_ID126/noise.cpp.i
+lib/FastLED_ID126/lib8tion.i: lib/FastLED_ID126/lib8tion.cpp.i
 
-.PHONY : .piolibdeps/FastLED_ID126/noise.i
+.PHONY : lib/FastLED_ID126/lib8tion.i
 
 # target to preprocess a source file
-.piolibdeps/FastLED_ID126/noise.cpp.i:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.i
-.PHONY : .piolibdeps/FastLED_ID126/noise.cpp.i
+lib/FastLED_ID126/lib8tion.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/lib8tion.cpp.i
+.PHONY : lib/FastLED_ID126/lib8tion.cpp.i
 
-.piolibdeps/FastLED_ID126/noise.s: .piolibdeps/FastLED_ID126/noise.cpp.s
+lib/FastLED_ID126/lib8tion.s: lib/FastLED_ID126/lib8tion.cpp.s
 
-.PHONY : .piolibdeps/FastLED_ID126/noise.s
+.PHONY : lib/FastLED_ID126/lib8tion.s
 
 # target to generate assembly for a file
-.piolibdeps/FastLED_ID126/noise.cpp.s:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/noise.cpp.s
-.PHONY : .piolibdeps/FastLED_ID126/noise.cpp.s
+lib/FastLED_ID126/lib8tion.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/lib8tion.cpp.s
+.PHONY : lib/FastLED_ID126/lib8tion.cpp.s
 
-.piolibdeps/FastLED_ID126/power_mgt.obj: .piolibdeps/FastLED_ID126/power_mgt.cpp.obj
+lib/FastLED_ID126/noise.obj: lib/FastLED_ID126/noise.cpp.obj
 
-.PHONY : .piolibdeps/FastLED_ID126/power_mgt.obj
+.PHONY : lib/FastLED_ID126/noise.obj
 
 # target to build an object file
-.piolibdeps/FastLED_ID126/power_mgt.cpp.obj:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.obj
-.PHONY : .piolibdeps/FastLED_ID126/power_mgt.cpp.obj
+lib/FastLED_ID126/noise.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/noise.cpp.obj
+.PHONY : lib/FastLED_ID126/noise.cpp.obj
 
-.piolibdeps/FastLED_ID126/power_mgt.i: .piolibdeps/FastLED_ID126/power_mgt.cpp.i
+lib/FastLED_ID126/noise.i: lib/FastLED_ID126/noise.cpp.i
 
-.PHONY : .piolibdeps/FastLED_ID126/power_mgt.i
+.PHONY : lib/FastLED_ID126/noise.i
 
 # target to preprocess a source file
-.piolibdeps/FastLED_ID126/power_mgt.cpp.i:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.i
-.PHONY : .piolibdeps/FastLED_ID126/power_mgt.cpp.i
+lib/FastLED_ID126/noise.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/noise.cpp.i
+.PHONY : lib/FastLED_ID126/noise.cpp.i
 
-.piolibdeps/FastLED_ID126/power_mgt.s: .piolibdeps/FastLED_ID126/power_mgt.cpp.s
+lib/FastLED_ID126/noise.s: lib/FastLED_ID126/noise.cpp.s
 
-.PHONY : .piolibdeps/FastLED_ID126/power_mgt.s
+.PHONY : lib/FastLED_ID126/noise.s
 
 # target to generate assembly for a file
-.piolibdeps/FastLED_ID126/power_mgt.cpp.s:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/power_mgt.cpp.s
-.PHONY : .piolibdeps/FastLED_ID126/power_mgt.cpp.s
+lib/FastLED_ID126/noise.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/noise.cpp.s
+.PHONY : lib/FastLED_ID126/noise.cpp.s
 
-.piolibdeps/FastLED_ID126/wiring.obj: .piolibdeps/FastLED_ID126/wiring.cpp.obj
+lib/FastLED_ID126/power_mgt.obj: lib/FastLED_ID126/power_mgt.cpp.obj
 
-.PHONY : .piolibdeps/FastLED_ID126/wiring.obj
+.PHONY : lib/FastLED_ID126/power_mgt.obj
 
 # target to build an object file
-.piolibdeps/FastLED_ID126/wiring.cpp.obj:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.obj
-.PHONY : .piolibdeps/FastLED_ID126/wiring.cpp.obj
+lib/FastLED_ID126/power_mgt.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/power_mgt.cpp.obj
+.PHONY : lib/FastLED_ID126/power_mgt.cpp.obj
 
-.piolibdeps/FastLED_ID126/wiring.i: .piolibdeps/FastLED_ID126/wiring.cpp.i
+lib/FastLED_ID126/power_mgt.i: lib/FastLED_ID126/power_mgt.cpp.i
 
-.PHONY : .piolibdeps/FastLED_ID126/wiring.i
+.PHONY : lib/FastLED_ID126/power_mgt.i
 
 # target to preprocess a source file
-.piolibdeps/FastLED_ID126/wiring.cpp.i:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.i
-.PHONY : .piolibdeps/FastLED_ID126/wiring.cpp.i
+lib/FastLED_ID126/power_mgt.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/power_mgt.cpp.i
+.PHONY : lib/FastLED_ID126/power_mgt.cpp.i
 
-.piolibdeps/FastLED_ID126/wiring.s: .piolibdeps/FastLED_ID126/wiring.cpp.s
+lib/FastLED_ID126/power_mgt.s: lib/FastLED_ID126/power_mgt.cpp.s
 
-.PHONY : .piolibdeps/FastLED_ID126/wiring.s
+.PHONY : lib/FastLED_ID126/power_mgt.s
 
 # target to generate assembly for a file
-.piolibdeps/FastLED_ID126/wiring.cpp.s:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/.piolibdeps/FastLED_ID126/wiring.cpp.s
-.PHONY : .piolibdeps/FastLED_ID126/wiring.cpp.s
+lib/FastLED_ID126/power_mgt.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/power_mgt.cpp.s
+.PHONY : lib/FastLED_ID126/power_mgt.cpp.s
+
+lib/FastLED_ID126/wiring.obj: lib/FastLED_ID126/wiring.cpp.obj
+
+.PHONY : lib/FastLED_ID126/wiring.obj
+
+# target to build an object file
+lib/FastLED_ID126/wiring.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/wiring.cpp.obj
+.PHONY : lib/FastLED_ID126/wiring.cpp.obj
+
+lib/FastLED_ID126/wiring.i: lib/FastLED_ID126/wiring.cpp.i
+
+.PHONY : lib/FastLED_ID126/wiring.i
+
+# target to preprocess a source file
+lib/FastLED_ID126/wiring.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/wiring.cpp.i
+.PHONY : lib/FastLED_ID126/wiring.cpp.i
+
+lib/FastLED_ID126/wiring.s: lib/FastLED_ID126/wiring.cpp.s
+
+.PHONY : lib/FastLED_ID126/wiring.s
+
+# target to generate assembly for a file
+lib/FastLED_ID126/wiring.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/FastLED_ID126/wiring.cpp.s
+.PHONY : lib/FastLED_ID126/wiring.cpp.s
+
+lib/SD_ID161/File.obj: lib/SD_ID161/File.cpp.obj
+
+.PHONY : lib/SD_ID161/File.obj
+
+# target to build an object file
+lib/SD_ID161/File.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/File.cpp.obj
+.PHONY : lib/SD_ID161/File.cpp.obj
+
+lib/SD_ID161/File.i: lib/SD_ID161/File.cpp.i
+
+.PHONY : lib/SD_ID161/File.i
+
+# target to preprocess a source file
+lib/SD_ID161/File.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/File.cpp.i
+.PHONY : lib/SD_ID161/File.cpp.i
+
+lib/SD_ID161/File.s: lib/SD_ID161/File.cpp.s
+
+.PHONY : lib/SD_ID161/File.s
+
+# target to generate assembly for a file
+lib/SD_ID161/File.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/File.cpp.s
+.PHONY : lib/SD_ID161/File.cpp.s
+
+lib/SD_ID161/SD.obj: lib/SD_ID161/SD.cpp.obj
+
+.PHONY : lib/SD_ID161/SD.obj
+
+# target to build an object file
+lib/SD_ID161/SD.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/SD.cpp.obj
+.PHONY : lib/SD_ID161/SD.cpp.obj
+
+lib/SD_ID161/SD.i: lib/SD_ID161/SD.cpp.i
+
+.PHONY : lib/SD_ID161/SD.i
+
+# target to preprocess a source file
+lib/SD_ID161/SD.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/SD.cpp.i
+.PHONY : lib/SD_ID161/SD.cpp.i
+
+lib/SD_ID161/SD.s: lib/SD_ID161/SD.cpp.s
+
+.PHONY : lib/SD_ID161/SD.s
+
+# target to generate assembly for a file
+lib/SD_ID161/SD.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/SD.cpp.s
+.PHONY : lib/SD_ID161/SD.cpp.s
+
+lib/SD_ID161/utility/Sd2Card.obj: lib/SD_ID161/utility/Sd2Card.cpp.obj
+
+.PHONY : lib/SD_ID161/utility/Sd2Card.obj
+
+# target to build an object file
+lib/SD_ID161/utility/Sd2Card.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/utility/Sd2Card.cpp.obj
+.PHONY : lib/SD_ID161/utility/Sd2Card.cpp.obj
+
+lib/SD_ID161/utility/Sd2Card.i: lib/SD_ID161/utility/Sd2Card.cpp.i
+
+.PHONY : lib/SD_ID161/utility/Sd2Card.i
+
+# target to preprocess a source file
+lib/SD_ID161/utility/Sd2Card.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/utility/Sd2Card.cpp.i
+.PHONY : lib/SD_ID161/utility/Sd2Card.cpp.i
+
+lib/SD_ID161/utility/Sd2Card.s: lib/SD_ID161/utility/Sd2Card.cpp.s
+
+.PHONY : lib/SD_ID161/utility/Sd2Card.s
+
+# target to generate assembly for a file
+lib/SD_ID161/utility/Sd2Card.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/utility/Sd2Card.cpp.s
+.PHONY : lib/SD_ID161/utility/Sd2Card.cpp.s
+
+lib/SD_ID161/utility/SdFile.obj: lib/SD_ID161/utility/SdFile.cpp.obj
+
+.PHONY : lib/SD_ID161/utility/SdFile.obj
+
+# target to build an object file
+lib/SD_ID161/utility/SdFile.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/utility/SdFile.cpp.obj
+.PHONY : lib/SD_ID161/utility/SdFile.cpp.obj
+
+lib/SD_ID161/utility/SdFile.i: lib/SD_ID161/utility/SdFile.cpp.i
+
+.PHONY : lib/SD_ID161/utility/SdFile.i
+
+# target to preprocess a source file
+lib/SD_ID161/utility/SdFile.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/utility/SdFile.cpp.i
+.PHONY : lib/SD_ID161/utility/SdFile.cpp.i
+
+lib/SD_ID161/utility/SdFile.s: lib/SD_ID161/utility/SdFile.cpp.s
+
+.PHONY : lib/SD_ID161/utility/SdFile.s
+
+# target to generate assembly for a file
+lib/SD_ID161/utility/SdFile.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/utility/SdFile.cpp.s
+.PHONY : lib/SD_ID161/utility/SdFile.cpp.s
+
+lib/SD_ID161/utility/SdVolume.obj: lib/SD_ID161/utility/SdVolume.cpp.obj
+
+.PHONY : lib/SD_ID161/utility/SdVolume.obj
+
+# target to build an object file
+lib/SD_ID161/utility/SdVolume.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/utility/SdVolume.cpp.obj
+.PHONY : lib/SD_ID161/utility/SdVolume.cpp.obj
+
+lib/SD_ID161/utility/SdVolume.i: lib/SD_ID161/utility/SdVolume.cpp.i
+
+.PHONY : lib/SD_ID161/utility/SdVolume.i
+
+# target to preprocess a source file
+lib/SD_ID161/utility/SdVolume.cpp.i:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/utility/SdVolume.cpp.i
+.PHONY : lib/SD_ID161/utility/SdVolume.cpp.i
+
+lib/SD_ID161/utility/SdVolume.s: lib/SD_ID161/utility/SdVolume.cpp.s
+
+.PHONY : lib/SD_ID161/utility/SdVolume.s
+
+# target to generate assembly for a file
+lib/SD_ID161/utility/SdVolume.cpp.s:
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/lib/SD_ID161/utility/SdVolume.cpp.s
+.PHONY : lib/SD_ID161/utility/SdVolume.cpp.s
 
 src/main.obj: src/main.cpp.obj
 
@@ -475,7 +610,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/src/main.cpp.obj
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -484,7 +619,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -493,7 +628,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles\Firmware.dir\build.make CMakeFiles/Firmware.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles\Lightstick_Firmware.dir\build.make CMakeFiles/Lightstick_Firmware.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -506,40 +641,55 @@ help:
 	@echo ... PLATFORMIO_UPLOADFS
 	@echo ... PLATFORMIO_BUILD
 	@echo ... PLATFORMIO_UPLOAD
-	@echo ... Firmware
 	@echo ... PLATFORMIO_CLEAN
+	@echo ... Lightstick_Firmware
 	@echo ... PLATFORMIO_REBUILD_PROJECT_INDEX
 	@echo ... PLATFORMIO_TEST
 	@echo ... PLATFORMIO_PROGRAM
 	@echo ... PLATFORMIO_UPDATE_ALL
 	@echo ... edit_cache
-	@echo ... .piolibdeps/FastLED_ID126/FastLED.obj
-	@echo ... .piolibdeps/FastLED_ID126/FastLED.i
-	@echo ... .piolibdeps/FastLED_ID126/FastLED.s
-	@echo ... .piolibdeps/FastLED_ID126/bitswap.obj
-	@echo ... .piolibdeps/FastLED_ID126/bitswap.i
-	@echo ... .piolibdeps/FastLED_ID126/bitswap.s
-	@echo ... .piolibdeps/FastLED_ID126/colorpalettes.obj
-	@echo ... .piolibdeps/FastLED_ID126/colorpalettes.i
-	@echo ... .piolibdeps/FastLED_ID126/colorpalettes.s
-	@echo ... .piolibdeps/FastLED_ID126/colorutils.obj
-	@echo ... .piolibdeps/FastLED_ID126/colorutils.i
-	@echo ... .piolibdeps/FastLED_ID126/colorutils.s
-	@echo ... .piolibdeps/FastLED_ID126/hsv2rgb.obj
-	@echo ... .piolibdeps/FastLED_ID126/hsv2rgb.i
-	@echo ... .piolibdeps/FastLED_ID126/hsv2rgb.s
-	@echo ... .piolibdeps/FastLED_ID126/lib8tion.obj
-	@echo ... .piolibdeps/FastLED_ID126/lib8tion.i
-	@echo ... .piolibdeps/FastLED_ID126/lib8tion.s
-	@echo ... .piolibdeps/FastLED_ID126/noise.obj
-	@echo ... .piolibdeps/FastLED_ID126/noise.i
-	@echo ... .piolibdeps/FastLED_ID126/noise.s
-	@echo ... .piolibdeps/FastLED_ID126/power_mgt.obj
-	@echo ... .piolibdeps/FastLED_ID126/power_mgt.i
-	@echo ... .piolibdeps/FastLED_ID126/power_mgt.s
-	@echo ... .piolibdeps/FastLED_ID126/wiring.obj
-	@echo ... .piolibdeps/FastLED_ID126/wiring.i
-	@echo ... .piolibdeps/FastLED_ID126/wiring.s
+	@echo ... lib/FastLED_ID126/FastLED.obj
+	@echo ... lib/FastLED_ID126/FastLED.i
+	@echo ... lib/FastLED_ID126/FastLED.s
+	@echo ... lib/FastLED_ID126/bitswap.obj
+	@echo ... lib/FastLED_ID126/bitswap.i
+	@echo ... lib/FastLED_ID126/bitswap.s
+	@echo ... lib/FastLED_ID126/colorpalettes.obj
+	@echo ... lib/FastLED_ID126/colorpalettes.i
+	@echo ... lib/FastLED_ID126/colorpalettes.s
+	@echo ... lib/FastLED_ID126/colorutils.obj
+	@echo ... lib/FastLED_ID126/colorutils.i
+	@echo ... lib/FastLED_ID126/colorutils.s
+	@echo ... lib/FastLED_ID126/hsv2rgb.obj
+	@echo ... lib/FastLED_ID126/hsv2rgb.i
+	@echo ... lib/FastLED_ID126/hsv2rgb.s
+	@echo ... lib/FastLED_ID126/lib8tion.obj
+	@echo ... lib/FastLED_ID126/lib8tion.i
+	@echo ... lib/FastLED_ID126/lib8tion.s
+	@echo ... lib/FastLED_ID126/noise.obj
+	@echo ... lib/FastLED_ID126/noise.i
+	@echo ... lib/FastLED_ID126/noise.s
+	@echo ... lib/FastLED_ID126/power_mgt.obj
+	@echo ... lib/FastLED_ID126/power_mgt.i
+	@echo ... lib/FastLED_ID126/power_mgt.s
+	@echo ... lib/FastLED_ID126/wiring.obj
+	@echo ... lib/FastLED_ID126/wiring.i
+	@echo ... lib/FastLED_ID126/wiring.s
+	@echo ... lib/SD_ID161/File.obj
+	@echo ... lib/SD_ID161/File.i
+	@echo ... lib/SD_ID161/File.s
+	@echo ... lib/SD_ID161/SD.obj
+	@echo ... lib/SD_ID161/SD.i
+	@echo ... lib/SD_ID161/SD.s
+	@echo ... lib/SD_ID161/utility/Sd2Card.obj
+	@echo ... lib/SD_ID161/utility/Sd2Card.i
+	@echo ... lib/SD_ID161/utility/Sd2Card.s
+	@echo ... lib/SD_ID161/utility/SdFile.obj
+	@echo ... lib/SD_ID161/utility/SdFile.i
+	@echo ... lib/SD_ID161/utility/SdFile.s
+	@echo ... lib/SD_ID161/utility/SdVolume.obj
+	@echo ... lib/SD_ID161/utility/SdVolume.i
+	@echo ... lib/SD_ID161/utility/SdVolume.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

@@ -42,10 +42,10 @@ RM = D:\LaptopSync\CompilerToolchains\CMake-Latest\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware"
+CMAKE_SOURCE_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug"
 
 # Utility rule file for PLATFORMIO_REBUILD_PROJECT_INDEX.
 
@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-
 include CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/progress.make
 
 CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX:
-	cd /d "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware" && C:\Python27\Scripts\platformio.exe -f -c clion init --ide clion
+	cd /d "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware" && C:\Python27\Scripts\platformio.exe -f -c clion init --ide clion
 
 PLATFORMIO_REBUILD_PROJECT_INDEX: CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX
 PLATFORMIO_REBUILD_PROJECT_INDEX: CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/build.make
@@ -70,6 +70,6 @@ CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/clean:
 .PHONY : CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/clean
 
 CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug\CMakeFiles\PLATFORMIO_REBUILD_PROJECT_INDEX.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug\CMakeFiles\PLATFORMIO_REBUILD_PROJECT_INDEX.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/depend
 

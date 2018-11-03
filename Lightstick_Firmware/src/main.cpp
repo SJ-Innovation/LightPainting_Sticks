@@ -1,7 +1,7 @@
 #include "Arduino.h"
 #include "hardware_config.h"
-#include <FastLED.h>
-#include <SD.h>
+#include "FastLED.h"
+#include "SD.h"
 
 // 0 is at the top, (STICK_NUM_LEDS-1) is at the bottom
 CRGB Stick_LEDS[STICK_NUM_LEDS];

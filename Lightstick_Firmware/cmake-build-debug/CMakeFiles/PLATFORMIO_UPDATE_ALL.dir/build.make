@@ -42,10 +42,10 @@ RM = D:\LaptopSync\CompilerToolchains\CMake-Latest\bin\cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware"
+CMAKE_SOURCE_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug"
 
 # Utility rule file for PLATFORMIO_UPDATE_ALL.
 
@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-
 include CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/progress.make
 
 CMakeFiles/PLATFORMIO_UPDATE_ALL:
-	cd /d "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware" && C:\Python27\Scripts\platformio.exe -f -c clion update
+	cd /d "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware" && C:\Python27\Scripts\platformio.exe -f -c clion update
 
 PLATFORMIO_UPDATE_ALL: CMakeFiles/PLATFORMIO_UPDATE_ALL
 PLATFORMIO_UPDATE_ALL: CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/build.make
@@ -70,6 +70,6 @@ CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/clean:
 .PHONY : CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/clean
 
 CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware\cmake-build-debug\CMakeFiles\PLATFORMIO_UPDATE_ALL.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug" "D:\LaptopSync\Uni\EARs\WIE LightSticks\SJ-I_LightSticks V1\LightPainting_Sticks\Lightstick_Firmware\cmake-build-debug\CMakeFiles\PLATFORMIO_UPDATE_ALL.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/depend
 
