@@ -1,0 +1,11 @@
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/Firmware.dir
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir
+D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug/CMakeFiles/edit_cache.dir

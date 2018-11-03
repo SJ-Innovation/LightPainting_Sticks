@@ -1,0 +1,4 @@
+D:\LaptopSync\CompilerToolchains\CMake-Latest\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\LaptopSync\Uni\EARs\WIE LightSticks\Firmware"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/LaptopSync/Uni/EARs/WIE LightSticks/Firmware/cmake-build-debug
