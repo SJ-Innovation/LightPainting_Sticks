@@ -2,17 +2,17 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_CLEAN" />
+      <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
       <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_TEST" />
       <config projectName="Lightstick_Firmware" targetName="DEBUG" />
-      <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_REBUILD_PROJECT_INDEX" />
-      <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_UPLOADFS" />
-      <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_UPDATE_ALL" />
-      <config projectName="Lightstick_Firmware" targetName="PLATFORMIO" />
-      <config projectName="Lightstick_Firmware" targetName="Lightstick_Firmware" />
       <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_UPLOAD" />
+      <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_CLEAN" />
+      <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_UPDATE_ALL" />
       <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_PROGRAM" />
       <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_BUILD" />
+      <config projectName="Lightstick_Firmware" targetName="Lightstick_Firmware" />
+      <config projectName="Lightstick_Firmware" targetName="PLATFORMIO_UPLOADFS" />
+      <config projectName="Lightstick_Firmware" targetName="PLATFORMIO" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -22,211 +22,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec922180-b3d3-40f1-af0b-2568113a9075" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/.library.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/FastLED.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/FastLED.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/PORTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/bitswap.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/bitswap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/chipsets.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/color.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/colorpalettes.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/colorpalettes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/colorutils.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/colorutils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/controller.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/cpp_compat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/dmx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/docs/Doxyfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/docs/mainpage.dox" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/AnalogOutput/AnalogOutput.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Blink/Blink.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/ColorPalette/ColorPalette.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/ColorTemperature/ColorTemperature.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Cylon/Cylon.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/DemoReel100/DemoReel100.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/DemoReelESP32/DemoReelESP32.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Fire2012/Fire2012.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Fire2012WithPalette/Fire2012WithPalette.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/FirstLight/FirstLight.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Multiple/ArrayOfLedArrays/ArrayOfLedArrays.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Multiple/MirroringSample/MirroringSample.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Multiple/MultiArrays/MultiArrays.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Multiple/MultipleStripsInOneArray/MultipleStripsInOneArray.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Multiple/OctoWS2811Demo/OctoWS2811Demo.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Multiple/ParallelOutputDemo/ParallelOutputDemo.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Noise/Noise.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/NoisePlayground/NoisePlayground.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/NoisePlusPalette/NoisePlusPalette.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Pintest/Pintest.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/Ports/PJRCSpectrumAnalyzer/PJRCSpectrumAnalyzer.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/RGBCalibrate/RGBCalibrate.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/RGBSetDemo/RGBSetDemo.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/SmartMatrix/SmartMatrix.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/examples/XYMatrix/XYMatrix.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/extras/AppleII.s65" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/extras/FastLED6502.s65" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/extras/RainbowDemo.bin.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/extras/RainbowDemo.s65" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/fastled_config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/fastled_delay.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/fastled_progmem.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/fastpin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/fastspi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/fastspi_bitbang.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/fastspi_dma.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/fastspi_nop.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/fastspi_ref.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/fastspi_types.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/hsv2rgb.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/hsv2rgb.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/keywords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/led_sysdefs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/lib8tion.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/lib8tion.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/lib8tion/math8.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/lib8tion/random8.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/lib8tion/scale8.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/lib8tion/trig8.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/library.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/library.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/noise.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/noise.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/pixelset.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/pixeltypes.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/common/m0clockless.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/d21/clockless_arm_d21.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/d21/fastled_arm_d21.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/d21/fastpin_arm_d21.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/d21/led_sysdefs_arm_d21.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k20/clockless_arm_k20.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k20/clockless_block_arm_k20.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k20/fastled_arm_k20.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k20/fastpin_arm_k20.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k20/fastspi_arm_k20.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k20/led_sysdefs_arm_k20.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k20/octows2811_controller.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k20/smartmatrix_t3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k20/ws2812serial_controller.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k66/clockless_arm_k66.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k66/clockless_block_arm_k66.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k66/fastled_arm_k66.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k66/fastpin_arm_k66.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k66/fastspi_arm_k66.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/k66/led_sysdefs_arm_k66.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/kl26/clockless_arm_kl26.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/kl26/fastled_arm_kl26.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/kl26/fastpin_arm_kl26.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/kl26/fastspi_arm_kl26.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/kl26/led_sysdefs_arm_kl26.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/nrf51/clockless_arm_nrf51.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/nrf51/fastled_arm_nrf51.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/nrf51/fastpin_arm_nrf51.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/nrf51/fastspi_arm_nrf51.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/nrf51/led_sysdefs_arm_nrf51.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/sam/clockless_arm_sam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/sam/clockless_block_arm_sam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/sam/fastled_arm_sam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/sam/fastpin_arm_sam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/sam/fastspi_arm_sam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/sam/led_sysdefs_arm_sam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/stm32/clockless_arm_stm32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/stm32/cm3_regs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/stm32/fastled_arm_stm32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/stm32/fastpin_arm_stm32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/arm/stm32/led_sysdefs_arm_stm32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/avr/clockless_trinket.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/avr/fastled_avr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/avr/fastpin_avr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/avr/fastspi_avr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/avr/led_sysdefs_avr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/32/clockless_block_esp32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/32/clockless_esp32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/32/clockless_esp32.h.orig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/32/fastled_esp32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/32/fastpin_esp32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/32/led_sysdefs_esp32.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/8266/clockless_block_esp8266.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/8266/clockless_esp8266.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/8266/fastled_esp8266.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/8266/fastpin_esp8266.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/platforms/esp/8266/led_sysdefs_esp8266.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/power_mgt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/power_mgt.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/preview_changes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/release_notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/FastLED_ID126/wiring.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/.library.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/File.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/SD.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/SD.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/examples/CardInfo/CardInfo.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/examples/Datalogger/Datalogger.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/examples/DumpFile/DumpFile.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/examples/Files/Files.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/examples/ReadWrite/ReadWrite.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/examples/listfiles/listfiles.ino" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/keywords.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/library.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/utility/FatStructs.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/utility/Sd2Card.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/utility/Sd2Card.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/utility/Sd2PinMap.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/utility/SdFat.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/utility/SdFatUtil.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/utility/SdFatmainpage.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/utility/SdFile.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/utility/SdInfo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/SD_ID161/utility/SdVolume.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image_Binary_Generator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Image_Binary_Generator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Image_Binary_Generator/Gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Image_Binary_Generator/Gen.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.11.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Firmware.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Firmware.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Firmware.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Firmware.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Firmware.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Firmware.dir/includes_CXX.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Firmware.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Firmware.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Firmware.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Firmware.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Firmware.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="platformio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -245,10 +43,11 @@
     <session id="640997191">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -289,7 +88,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
+            <state relative-caret-position="731">
               <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
             </state>
           </provider>
@@ -326,10 +125,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="294" />
-    <option name="y" value="-9" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -352,6 +151,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -373,7 +173,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -486,20 +285,20 @@
       <updated>1435919971910</updated>
       <workItem from="1541282056317" duration="15000" />
       <workItem from="1541282094088" duration="191000" />
+      <workItem from="1541364322944" duration="289000" />
+      <workItem from="1541444245316" duration="316000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206000" />
+    <option name="totallyTimeSpent" value="811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info active="true" id="Project" order="0" visible="true" weight="0.18763326" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.30923247" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
@@ -509,6 +308,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Serial Monitor" order="7" />
       <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.30923247" />
       <window_info anchor="right" id="Database" order="0" />
     </layout>
   </component>
@@ -527,18 +327,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/FastLED_ID126/FastLED.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/platformio.ini">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
+        <state relative-caret-position="731">
           <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/FastLED_ID126/FastLED.h">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
