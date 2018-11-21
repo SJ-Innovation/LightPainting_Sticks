@@ -7,9 +7,10 @@ from PIL import Image
 FileName = input("Enter Name of Image To Process: ")
 LoadedImage = Image.open(FileName)
 Resolution_OverSampling_Factor = 5
+Brightness_Factor = 1
+Dist_Per_Row = 3#mm
+WalkingSpeed = 2#Meters per second
 
-
-WalkingSpeed = 1.4#Meters per second
 #Time_For_Image = 5000##Milliseconds       ##Only use one of these at a time!
 #Time_Per_Row = 5 ##Milliseconds
 
@@ -18,11 +19,10 @@ WalkingSpeed = 1.4#Meters per second
 ## Nothing below here is user-servicable. Please dont modify :)
 
 Stick_Size = 144
-LED_Width = 3#mm
 
 try:
     WalkingSpeed
-    RowsPerMeter = 1000/LED_Width
+    RowsPerMeter = 1000/Dist_Per_Row
     RowsPerSecond = WalkingSpeed*RowsPerMeter
     Time_Per_Row = 1000/RowsPerSecond
 except NameError:
@@ -46,9 +46,7 @@ if (Time_Per_Row != None and Time_For_Image != None):
     exit(1)
 
 
-
-
-FileName  =FileName[:FileName.index(".")]
+FileName = FileName[:FileName.index(".")]
 WriteFile = open(FileName+"-printme.lsk","wb")
 OrigSize = LoadedImage.size
 print("Input Image Size: X=",OrigSize[0] ,"Y=",OrigSize[1])
@@ -57,15 +55,15 @@ print("Image Scaling Factor:", Normalisation_Factor)
 print("LED Oversampling Factor:",Resolution_OverSampling_Factor)
 
 
-
 def RGBToBin(RGB):
     R,G,B = RGB[:3]
+    R*=Brightness_Factor
+    G*=Brightness_Factor
+    B*=Brightness_Factor
     R = R.to_bytes(1,byteorder = 'big')
     G = G.to_bytes(1,byteorder = 'big')
     B = B.to_bytes(1,byteorder = 'big')
     return R+G+B
-
-
 
 
 NewSize = (round(OrigSize[0] * Normalisation_Factor * Resolution_OverSampling_Factor), Stick_Size)
@@ -76,7 +74,7 @@ if Time_For_Image == None:
 
 print("Resulting Image Size: X=",NewSize[0],"Y=",NewSize[1])
 print("Each column will take:", str(Time_Per_Row) + "ms")
-print("The whole picture will take:",str(Time_For_Image)+"ms")
+print("The whole picture will take:",str(Time_For_Image)+"ms and",str(NewSize[0]*Dist_Per_Row/1000),"Meters of space")
 LoadedImage = LoadedImage.resize(NewSize,resample=Image.LANCZOS)
 
 WriteFile.write(round(Time_Per_Row / Resolution_OverSampling_Factor).to_bytes(2, byteorder = 'big')) #HoldTime
